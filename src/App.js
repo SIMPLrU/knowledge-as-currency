@@ -80,7 +80,7 @@ function App() {
       })
       .then((receipt) => {
         setFeedback(
-          "Woohoo! You just helped save the Bees! Visit Opensea.io to view your randomly generated NFT!"
+          "Congrats! You just purchased a rare limited randomly generated NFT from the Veyesors Collection."
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -134,7 +134,7 @@ function App() {
                   You can still buy and trade TBC NFTs on{" "}
                   <a
                     target={""}
-                    href={"https://opensea.io/collection/the-bee-collaborative"}
+                    href={"https://opensea.io/collection/VCol"}
                   >
                     Opensea.io
                   </a>
