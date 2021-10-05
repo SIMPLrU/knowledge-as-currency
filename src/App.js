@@ -14,7 +14,7 @@ export const StyledButton = styled.button`
   padding: 10px;
   font-weight: bold;
   color: #000000;
-  width: 300px;
+  width: 500px;
   cursor: pointer;
   box-shadow: 2px 8px 4px -2px rgba(250, 250, 0, 0.5);
   -webkit-box-shadow: 2px 3px 10px -2px rgba(250, 250, 0, 0.5);
@@ -56,7 +56,7 @@ function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
-  const [feedback, setFeedback] = useState("What Characteristic Will you Generate");
+  const [feedback, setFeedback] = useState("What characteristic will you generate?");
   const [claimingNft, setClaimingNft] = useState(false);
 
   const claimNFTs = (_amount) => {
@@ -158,7 +158,7 @@ function App() {
                 {blockchain.account === "" ||
                 blockchain.smartContract === null ? (
                   <s.Container ai={"center"} jc={"center"}>
-                    <s.TextDescription style={{ textAlign: "center" }}>
+                    <s.TextDescription style={{ textAlign: "center", fontSize: 24 }}>
                     
                     </s.TextDescription>
                     <s.SpacerSmall />
@@ -201,11 +201,11 @@ function App() {
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 18 }}>
-            WOOHOO
+            KNOWLEDGE AS CURRENCY
           </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextDescription style={{ textAlign: "center", fontSize: 14 }}>
-            THE VEYESORS COLLECTION IS n<p/>*.*.*LAUNCHING SOON*.*.*
+          <s.TextDescription style={{ textAlign: "center", fontSize: 24 }}>
+            THE VEYESORS COLLECTION LAUNCHES<p/>*.*.*SOON*.*.*
           </s.TextDescription>
         </s.Container>
       </s.Container>
