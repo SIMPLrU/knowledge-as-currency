@@ -8,7 +8,7 @@ import i1 from "./assets/images/1.png";
 
 export const StyledButton = styled.button`
   padding: 100px;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
   background-color: #ffffff;
   padding: 10px;
