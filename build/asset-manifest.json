@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Mint/static/css/main.68b973dc.chunk.css",
-    "main.js": "/Mint/static/js/main.eb9767db.chunk.js",
-    "main.js.map": "/Mint/static/js/main.eb9767db.chunk.js.map",
-    "runtime-main.js": "/Mint/static/js/runtime-main.f9ffe72e.js",
-    "runtime-main.js.map": "/Mint/static/js/runtime-main.f9ffe72e.js.map",
-    "static/js/2.74953c93.chunk.js": "/Mint/static/js/2.74953c93.chunk.js",
-    "static/js/2.74953c93.chunk.js.map": "/Mint/static/js/2.74953c93.chunk.js.map",
-    "static/js/3.a64233a7.chunk.js": "/Mint/static/js/3.a64233a7.chunk.js",
-    "static/js/3.a64233a7.chunk.js.map": "/Mint/static/js/3.a64233a7.chunk.js.map",
-    "index.html": "/Mint/index.html",
-    "static/css/main.68b973dc.chunk.css.map": "/Mint/static/css/main.68b973dc.chunk.css.map",
-    "static/js/2.74953c93.chunk.js.LICENSE.txt": "/Mint/static/js/2.74953c93.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/Mint/static/media/PressStart2P-Regular.f2341734.woff"
+    "main.css": "/knowledge-as-currency/static/css/main.ffb394ae.chunk.css",
+    "main.js": "/knowledge-as-currency/static/js/main.96548240.chunk.js",
+    "main.js.map": "/knowledge-as-currency/static/js/main.96548240.chunk.js.map",
+    "runtime-main.js": "/knowledge-as-currency/static/js/runtime-main.ad38bb1c.js",
+    "runtime-main.js.map": "/knowledge-as-currency/static/js/runtime-main.ad38bb1c.js.map",
+    "static/js/2.d1a35be1.chunk.js": "/knowledge-as-currency/static/js/2.d1a35be1.chunk.js",
+    "static/js/2.d1a35be1.chunk.js.map": "/knowledge-as-currency/static/js/2.d1a35be1.chunk.js.map",
+    "static/js/3.a64233a7.chunk.js": "/knowledge-as-currency/static/js/3.a64233a7.chunk.js",
+    "static/js/3.a64233a7.chunk.js.map": "/knowledge-as-currency/static/js/3.a64233a7.chunk.js.map",
+    "index.html": "/knowledge-as-currency/index.html",
+    "static/css/main.ffb394ae.chunk.css.map": "/knowledge-as-currency/static/css/main.ffb394ae.chunk.css.map",
+    "static/js/2.d1a35be1.chunk.js.LICENSE.txt": "/knowledge-as-currency/static/js/2.d1a35be1.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/knowledge-as-currency/static/media/PressStart2P-Regular.f2341734.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9ffe72e.js",
-    "static/js/2.74953c93.chunk.js",
-    "static/css/main.68b973dc.chunk.css",
-    "static/js/main.eb9767db.chunk.js"
+    "static/js/runtime-main.ad38bb1c.js",
+    "static/js/2.d1a35be1.chunk.js",
+    "static/css/main.ffb394ae.chunk.css",
+    "static/js/main.96548240.chunk.js"
   ]
 }
