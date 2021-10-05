@@ -7,14 +7,14 @@ import styled from "styled-components";
 import i1 from "./assets/images/1.png";
 
 export const StyledButton = styled.button`
-  padding: 10px;
-  border-radius: 50px;
+  padding: 2px;
+  border-radius: 100px;
   border: none;
   background-color: #ffffff;
-  padding: 10px;
+  padding: 2px;
   font-weight: bold;
   color: #000000;
-  width: 500px;
+  width: 400px;
   cursor: pointer;
   box-shadow: 2px 8px 4px -2px rgba(250, 250, 0, 0.5);
   -webkit-box-shadow: 2px 3px 10px -2px rgba(250, 250, 0, 0.5);
@@ -174,7 +174,7 @@ function App() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
-                        <s.TextDescription style={{ textAlign: "center" }}>
+                        <s.TextDescription style={{ textAlign: "center", fontSize: 24}}>
                           {blockchain.errorMsg}
                         </s.TextDescription>
                       </>
@@ -200,12 +200,12 @@ function App() {
         </ResponsiveWrapper>
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <s.TextDescription style={{ textAlign: "center", fontSize: 18 }}>
+          <s.TextDescription style={{ textAlign: "center", fontSize: 24 }}>
             KNOWLEDGE AS CURRENCY
           </s.TextDescription>
           <s.SpacerSmall />
-          <s.TextDescription style={{ textAlign: "center", fontSize: 24 }}>
-            THE VEYESORS COLLECTION LAUNCHES<p/>*.*.*SOON*.*.*
+          <s.TextDescription style={{ textAlign: "center", fontSize: 20 }}>
+            COLLECTION LAUNCHES SOON <p/>
           </s.TextDescription>
         </s.Container>
       </s.Container>
